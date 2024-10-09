@@ -1,0 +1,40 @@
+
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  left: 0;
+  /* margin-top: 45px; */
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.greenColor {
+  color: green !important;
+}
+.redColor {
+  color: red !important;
+}
+
+/* Custom scrollbar for thin width */
+.thin-scrollbar::-webkit-scrollbar {
+  width: 2px; /* Adjust the width */
+}
+
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background-color: rgba(34, 34, 34, 0.2); /* Thumb color */
+  border-radius: 10px;
+}
+
